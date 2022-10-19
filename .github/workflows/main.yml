@@ -8,10 +8,10 @@ jobs:
     name:  📂 Verificando arquivos
     runs-on: ubuntu-latest
     steps:
-    - name: ⬆️📂 Carregando arquivos locais
+    - name: 📂 Atualizando
       uses: actions/checkout@v2
     
-    - name: 🔀📂 Sincronizando com o servidor
+    - name: 📂 Sincronizando com o servidor
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
         server:  ${{ secrets.ftp_host }}
