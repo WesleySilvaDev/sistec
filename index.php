@@ -1,5 +1,4 @@
-<?php
-exit('ok');
+<?php 
 /**
  * CodeIgniter
  *
