@@ -5,10 +5,10 @@ on:
 name: 🔃 Atualização iniciada ( PROD )
 jobs:
   web-deploy:
-    name:  📂 Verificando arquivos...
+    name:  📂 Verificando arquivos
     runs-on: ubuntu-latest
     steps:
-    - name: ⬆️📂 Carregando arquivos locais...
+    - name: ⬆️📂 Carregando arquivos locais
       uses: actions/checkout@v2
     
     - name: 🔀📂 Sincronizando com o servidor
@@ -18,5 +18,4 @@ jobs:
         username: ${{ secrets.ftp_user }}
         password: ${{ secrets.ftp_password }}
         port: 2121
-      - name: ✅ Atualização concluída.
-       
+ 
