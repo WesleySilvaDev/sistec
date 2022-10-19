@@ -39,7 +39,7 @@ $config['app_subname'] = 'Sistema de Controle de Ordens de Serviço';
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'https://sistecbr.com/';
+$config['base_url'] = 'https://sistec.crateus.net';
 
 /*
 |--------------------------------------------------------------------------
